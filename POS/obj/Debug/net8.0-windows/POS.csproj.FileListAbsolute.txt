@@ -26,3 +26,6 @@ C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\POS\POS\bin\Debug\net8.0-windows\POS.dll
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\POS\POS\bin\Debug\net8.0-windows\MySql.Data.dll
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\POS\POS\bin\Debug\net8.0-windows\MySqlBackup.dll
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\POS\POS\obj\Debug\net8.0-windows\POS.registrationWindow.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\POS\POS\obj\Debug\net8.0-windows\POS.sourcelink.json
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\POS\POS\obj\Debug\net8.0-windows\POS.errorWindow.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\POS\POS\obj\Debug\net8.0-windows\POS.loadingScreen.resources

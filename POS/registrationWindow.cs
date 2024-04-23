@@ -97,7 +97,9 @@ namespace POS
 
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    loginFailed failed = new loginFailed();
+                    failed.message = ex.Message;
+                    failed.ShowDialog();
                 }
                 conn1.Close();
             }
@@ -162,7 +164,9 @@ namespace POS
 
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
             }
             return id;
         }

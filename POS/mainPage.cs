@@ -148,13 +148,19 @@ namespace POS
                 cmd.CommandText = "Insert INTO items(itemID,itemName,itemUnits, itemDate, itemQuantity)VALUES(" + setItemID() + ",'" + itemName.Text + "','" + itemUnit.Text + "', @dateValue, 0)";
                 cmd.Parameters.Add("@dateValue", MySqlDbType.Date).Value = date.Value.Date;
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Added Successfully!");
+
+
+                loginFailed failed = new loginFailed();
+                failed.message = "Added Successfully!";
+                failed.ShowDialog();
 
             }
 
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
             }
             conn1.Close();
 
@@ -183,7 +189,9 @@ namespace POS
 
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
             }
             return id++;
         }
@@ -211,10 +219,10 @@ namespace POS
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message);
+                loginFailed failed = new loginFailed();
+                failed.message = e.Message;
+                failed.ShowDialog();
             }
-
-
         }
 
         private void updateItem()
@@ -228,12 +236,18 @@ namespace POS
                 cmd.Parameters.AddWithValue("@name", itemName.Text);
                 cmd.Parameters.AddWithValue("@itemUnit", itemUnit.Text);
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Update successfully.");
+
+                loginFailed failed = new loginFailed();
+                failed.message = "Updated successfully!";
+                failed.ShowDialog();
+
                 conzx.Close();
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message);
+                loginFailed failed = new loginFailed();
+                failed.message = e.Message;
+                failed.ShowDialog();
             }
 
             updateTable();
@@ -252,9 +266,14 @@ namespace POS
                     item_unit = itemUnit.Text;
                     item_id = Int32.Parse(table.Rows[e.RowIndex].Cells[3].Value.ToString());
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    //loginFailed failed = new loginFailed();
+                    //failed.message = ex.Message;
+                    //failed.ShowDialog();
 
+                    errorWindow error = new errorWindow();
+                    error.ShowDialog();
                 }
             }
 
@@ -294,7 +313,11 @@ namespace POS
                 conzx.Open();
                 cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Convert.ToInt32(item_id);
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Deleted successfully.");
+
+                loginFailed failed = new loginFailed();
+                failed.message = "Deleted successfully!";
+                failed.ShowDialog();
+
                 conzx.Close();
             }
             catch (Exception e)
@@ -308,6 +331,206 @@ namespace POS
         private void Delete_Click(object sender, EventArgs e)
         {
             deleteItem();
+            clearFields();
+        }
+
+        private void stockIn_item_keypressed(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                searchItemStockIN();
+            }
+        }
+
+        private void searchItemStockIN()
+        {
+            MySqlConnection con = new MySqlConnection(connection);
+            MySqlCommand cmd = new MySqlCommand();
+            con.Open();
+            cmd.Connection = con;
+            try
+            {
+                cmd.CommandText = "SELECT * FROM items WHERE itemName=@item_name";
+                cmd.CommandTimeout = 3600;
+                cmd.Parameters.Add("@item_name", MySqlDbType.String).Value = stockInItem.Text;
+                MySqlDataReader dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    stockInItem.Text = dr["itemName"].ToString();
+                    stockInUnit.Text = dr["itemUnits"].ToString();
+                    stockInQuantity.Text = dr["itemQuantity"].ToString();
+                }
+                else
+                {
+                    loginFailed failed = new loginFailed();
+                    failed.message = "Item doesn't exist.";
+                    failed.ShowDialog();
+                }
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
+            }
+        }
+
+        private void stockInSave_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(stockInQuantity.Text);
+            int added_quantity = int.Parse(stockInAddedQuantity.Text);
+            int total = quantity + added_quantity;
+
+            try
+            {
+                MySqlConnection conzx = new MySqlConnection(connection);
+                MySqlCommand cmd = new MySqlCommand("update items set itemQuantity=@item_quantity where itemName=@item_name", conzx);
+                //  insert into stockin where values itemID.quantity
+
+                conzx.Open();
+                cmd.Parameters.Add("@item_quantity", MySqlDbType.Int32).Value = Convert.ToInt32(total);
+                cmd.Parameters.Add("@item_name", MySqlDbType.String).Value = stockInItem.Text;
+                cmd.ExecuteNonQuery();
+
+                loginFailed failed = new loginFailed();
+                failed.message = "Updated Successfully!";
+                failed.ShowDialog();
+
+                conzx.Close();
+            }
+            catch (Exception ex)
+            {
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
+            }
+
+            updateTable();
+            stockIn_clear();
+        }
+
+        private void stockInUpdate_Click(object sender, EventArgs e)
+        {
+            stock_in_update();
+        }
+
+        private void stock_in_update()
+        {
+            //nothing but an empty shell.
+
+            stockIn_clear();
+        }
+
+        private void stockOutSave_Click(object sender, EventArgs e)
+        {
+            stockOut_Save();
+        }
+
+        private void stockOut_Save()
+        {
+            int quantity = int.Parse(stockOutQuantity.Text);
+            int out_quantity = int.Parse(stockOutOutQuantity.Text);
+            int total = quantity - out_quantity;
+
+            try
+            {
+                MySqlConnection conzx = new MySqlConnection(connection);
+                MySqlCommand cmd = new MySqlCommand("update items set itemQuantity=@item_quantity where itemName=@item_name", conzx);
+                conzx.Open();
+                cmd.Parameters.Add("@item_quantity", MySqlDbType.Int32).Value = Convert.ToInt32(total);
+                cmd.Parameters.Add("@item_name", MySqlDbType.String).Value = stockOutItem.Text;
+                cmd.ExecuteNonQuery();
+
+                loginFailed failed = new loginFailed();
+                failed.message = "Transaction success!";
+                failed.ShowDialog();
+
+                conzx.Close();
+            }
+            catch (Exception ex)
+            {
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
+            }
+
+            updateTable();
+            stockOut_clear();
+        }
+
+        private void stockout_keydown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                searchStockOutItem();
+            }
+        }
+
+        private void searchStockOutItem()
+        {
+            MySqlConnection con = new MySqlConnection(connection);
+            MySqlCommand cmd = new MySqlCommand();
+            con.Open();
+            cmd.Connection = con;
+            try
+            {
+                cmd.CommandText = "SELECT * FROM items WHERE itemName=@item_name";
+                cmd.CommandTimeout = 3600;
+                cmd.Parameters.Add("@item_name", MySqlDbType.String).Value = stockOutItem.Text;
+                MySqlDataReader dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    stockOutItem.Text = dr["itemName"].ToString();
+                    stockOutUnit.Text = dr["itemUnits"].ToString();
+                    stockOutQuantity.Text = dr["itemQuantity"].ToString();
+                }
+                else
+                {
+                    loginFailed failed = new loginFailed();
+                    failed.message = "Item doesn't exist.";
+                    failed.ShowDialog();
+                }
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
+            }
+        }
+        private void stockOut_clear()
+        {
+            stockOutItem.Clear();
+            stockOutQuantity.Clear();
+            stockOutOutQuantity.Clear();
+            stockOutUnit.Clear();
+        }
+
+        private void stockOutClear_Click(object sender, EventArgs e)
+        {
+            stockOut_clear();
+        }
+
+        private void stockInClear_Click(object sender, EventArgs e)
+        {
+            stockIn_clear();
+        }
+
+        private void stockIn_clear()
+        {
+            stockInItem.Clear();
+            stockInQuantity.Clear();
+            stockInUnit.Clear();
+            stockInAddedQuantity.Clear();
+        }
+
+        private void stockOutUpdate_Click(object sender, EventArgs e)
+        {
+
+
+            stockOut_clear();
         }
     }
 }

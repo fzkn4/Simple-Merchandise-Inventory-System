@@ -89,6 +89,7 @@ namespace POS
                 else
                 {
                     loginFailed failed = new loginFailed();
+                    failed.message = "Login Failed!";
                     failed.ShowDialog();
                 }
                 con.Close();
@@ -96,7 +97,9 @@ namespace POS
 
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
             }
             username.Clear();
             password.Clear();

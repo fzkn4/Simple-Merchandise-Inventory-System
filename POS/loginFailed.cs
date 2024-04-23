@@ -8,11 +8,14 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace POS
 {
     public partial class loginFailed : Form
     {
+        public string message;
+
         // window drop shadow 
         private const int CS_DropShadow = 0x00020000;
         protected override CreateParams CreateParams
@@ -30,6 +33,7 @@ namespace POS
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            this.ActiveControl = close;
         }
         //round borders
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -60,7 +64,15 @@ namespace POS
 
         private void loginFailed_Load(object sender, EventArgs e)
         {
+            displayMessage.Text = message;
+        }
 
+        private void key_down(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Space)
+            {
+                Close();
+            }
         }
     }
 }

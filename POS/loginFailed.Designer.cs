@@ -28,33 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            label1 = new Label();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             close = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            displayMessage = new Guna.UI2.WinForms.Guna2HtmlLabel();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(49, 23);
-            label1.Name = "label1";
-            label1.Size = new Size(129, 30);
-            label1.TabIndex = 0;
-            label1.Text = "Login Failed!";
-            label1.Click += label1_Click;
             // 
             // close
             // 
             close.BackColor = Color.FromArgb(52, 73, 85);
             close.BorderRadius = 10;
             close.CheckedState.FillColor = Color.IndianRed;
-            close.CustomizableEdges = customizableEdges1;
+            close.CustomizableEdges = customizableEdges5;
             close.DisabledState.BorderColor = Color.DarkGray;
             close.DisabledState.CustomBorderColor = Color.DarkGray;
             close.DisabledState.FillColor = Color.FromArgb(141, 141, 141);
@@ -63,10 +51,10 @@
             close.FocusedColor = Color.IndianRed;
             close.Font = new Font("Segoe UI", 9F);
             close.ForeColor = Color.White;
-            close.Location = new Point(184, 1);
+            close.Location = new Point(156, 3);
             close.Name = "close";
-            close.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            close.Size = new Size(41, 33);
+            close.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            close.Size = new Size(28, 26);
             close.TabIndex = 7;
             close.Text = "x";
             close.Click += close_Click;
@@ -75,7 +63,7 @@
             // 
             guna2Button1.BackColor = Color.FromArgb(52, 73, 85);
             guna2Button1.BorderRadius = 6;
-            guna2Button1.CustomizableEdges = customizableEdges3;
+            guna2Button1.CustomizableEdges = customizableEdges7;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -84,36 +72,51 @@
             guna2Button1.FocusedColor = Color.IndianRed;
             guna2Button1.Font = new Font("Segoe UI", 9F);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(66, 60);
+            guna2Button1.Location = new Point(61, 54);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button1.Size = new Size(90, 31);
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button1.Size = new Size(64, 24);
             guna2Button1.TabIndex = 8;
             guna2Button1.Text = "Close";
             guna2Button1.Click += guna2Button1_Click;
+            guna2Button1.KeyDown += key_down;
+            // 
+            // displayMessage
+            // 
+            displayMessage.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            displayMessage.AutoSize = false;
+            displayMessage.BackColor = Color.Transparent;
+            displayMessage.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            displayMessage.ForeColor = Color.White;
+            displayMessage.Location = new Point(0, 26);
+            displayMessage.Name = "displayMessage";
+            displayMessage.Size = new Size(184, 22);
+            displayMessage.TabIndex = 9;
+            displayMessage.Text = "Display Message";
+            displayMessage.TextAlignment = ContentAlignment.MiddleCenter;
             // 
             // loginFailed
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             BackColor = Color.FromArgb(52, 73, 85);
-            ClientSize = new Size(227, 115);
+            ClientSize = new Size(186, 90);
+            Controls.Add(displayMessage);
             Controls.Add(guna2Button1);
             Controls.Add(close);
-            Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "loginFailed";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "loginFailed";
             Load += loginFailed_Load;
+            KeyDown += key_down;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
         private Guna.UI2.WinForms.Guna2Button close;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel displayMessage;
     }
 }
