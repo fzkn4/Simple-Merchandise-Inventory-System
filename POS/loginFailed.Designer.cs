@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             close = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             displayMessage = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -42,7 +42,7 @@
             close.BackColor = Color.FromArgb(52, 73, 85);
             close.BorderRadius = 10;
             close.CheckedState.FillColor = Color.IndianRed;
-            close.CustomizableEdges = customizableEdges5;
+            close.CustomizableEdges = customizableEdges1;
             close.DisabledState.BorderColor = Color.DarkGray;
             close.DisabledState.CustomBorderColor = Color.DarkGray;
             close.DisabledState.FillColor = Color.FromArgb(141, 141, 141);
@@ -53,7 +53,7 @@
             close.ForeColor = Color.White;
             close.Location = new Point(156, 3);
             close.Name = "close";
-            close.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            close.ShadowDecoration.CustomizableEdges = customizableEdges2;
             close.Size = new Size(28, 26);
             close.TabIndex = 7;
             close.Text = "x";
@@ -63,7 +63,7 @@
             // 
             guna2Button1.BackColor = Color.FromArgb(52, 73, 85);
             guna2Button1.BorderRadius = 6;
-            guna2Button1.CustomizableEdges = customizableEdges7;
+            guna2Button1.CustomizableEdges = customizableEdges3;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -74,7 +74,7 @@
             guna2Button1.ForeColor = Color.White;
             guna2Button1.Location = new Point(61, 54);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2Button1.Size = new Size(64, 24);
             guna2Button1.TabIndex = 8;
             guna2Button1.Text = "Close";
@@ -108,7 +108,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "loginFailed";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "loginFailed";
+            Text = "Inventory System";
             Load += loginFailed_Load;
             KeyDown += key_down;
             ResumeLayout(false);

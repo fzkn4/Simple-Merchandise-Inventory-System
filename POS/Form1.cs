@@ -81,7 +81,7 @@ namespace POS
                 if (dr.Read())
                 {
                     user_name = dr["name"].ToString();
-                    user_position = dr["position"].ToString(); 
+                    user_position = dr["position"].ToString();
                     mainPage m = new mainPage();
                     m.Show();
                     this.Hide();
@@ -113,5 +113,9 @@ namespace POS
             this.Hide();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.ActiveControl = username;
+        }
     }
 }

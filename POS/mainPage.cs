@@ -15,6 +15,8 @@ using System.Xml.Linq;
 using System.Configuration;
 using MySqlX.XDevAPI.Relational;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Globalization;
+using System.Globalization;
 
 namespace POS
 {
@@ -208,7 +210,7 @@ namespace POS
             try
             {
                 MySqlConnection con = new MySqlConnection(connection);
-                MySqlCommand cmd = new MySqlCommand("SELECT itemName, itemUnits, itemQuantity, ItemID from items", con);
+                MySqlCommand cmd = new MySqlCommand("SELECT itemName as 'Item Name', itemUnits as 'Item Units', itemQuantity as 'Item Quantity', ItemID as 'Item ID' from items", con);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 con.Open();
                 DataSet ds = new DataSet();
@@ -273,6 +275,7 @@ namespace POS
                     //failed.ShowDialog();
 
                     errorWindow error = new errorWindow();
+                    error.errorMessage = ex.Message;
                     error.ShowDialog();
                 }
             }
@@ -531,6 +534,15 @@ namespace POS
 
 
             stockOut_clear();
+        }
+
+        private void outQuantity_textchanged(object sender, EventArgs e)
+        {
+            
+        }
+        private void stockoutOutQuantity_leave(object sender, EventArgs e)
+        {
+            
         }
     }
 }

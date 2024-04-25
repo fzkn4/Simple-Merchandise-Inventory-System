@@ -372,7 +372,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "registrationWindow";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "registrationWindow";
+            Text = "Inventory System";
             Load += registrationWindow_Load;
             ResumeLayout(false);
             PerformLayout();
