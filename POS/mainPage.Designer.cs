@@ -904,6 +904,7 @@
             stockOutItem.ShadowDecoration.CustomizableEdges = customizableEdges40;
             stockOutItem.Size = new Size(178, 34);
             stockOutItem.TabIndex = 3;
+            stockOutItem.TextChanged += stockout_item_textchanged;
             stockOutItem.KeyDown += stockout_keydown;
             // 
             // stockOutRequestBy
@@ -2109,6 +2110,7 @@
             Name = "mainPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Inventory System";
+            Load += mainPage_Load;
             guna2Panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();

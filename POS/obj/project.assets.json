@@ -145,7 +145,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chris\\.nuget\\packages\\": {},
+    "C:\\Users\\Fzkn4\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -154,14 +154,14 @@
       "projectUniqueName": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\POS.csproj",
       "projectName": "POS",
       "projectPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\POS.csproj",
-      "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Fzkn4\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fzkn4\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

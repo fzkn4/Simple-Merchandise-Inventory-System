@@ -538,11 +538,54 @@ namespace POS
 
         private void outQuantity_textchanged(object sender, EventArgs e)
         {
-            
+
         }
         private void stockoutOutQuantity_leave(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void stockout_item_textchanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void autoSuggest(Guna2TextBox textbox )
+        {
+            AutoCompleteStringCollection source = new AutoCompleteStringCollection();
+
+
+            MySqlConnection con = new MySqlConnection(connection);
+            MySqlCommand cmd = new MySqlCommand();
+            con.Open();
+            cmd.Connection = con;
+            try
+            {
+                cmd.CommandText = "SELECT itemName FROM items ";
+                cmd.CommandTimeout = 3600;
+                MySqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    source.Add(dr["itemName"].ToString());
+                }
+                textbox.AutoCompleteCustomSource = source;
+                textbox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                textbox.AutoCompleteSource = AutoCompleteSource.CustomSource;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                loginFailed failed = new loginFailed();
+                failed.message = ex.Message;
+                failed.ShowDialog();
+            }
+        }
+
+        private void mainPage_Load(object sender, EventArgs e)
+        {
+            autoSuggest(stockOutItem);
+            autoSuggest(stockInItem);
         }
     }
 }
