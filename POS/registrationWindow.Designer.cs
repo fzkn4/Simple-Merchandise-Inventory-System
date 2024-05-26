@@ -149,6 +149,7 @@
             // 
             // name
             // 
+            name.Animated = true;
             name.BorderColor = Color.FromArgb(66, 90, 105);
             name.BorderRadius = 6;
             name.BorderThickness = 2;
@@ -175,6 +176,7 @@
             // 
             // username
             // 
+            username.Animated = true;
             username.BorderColor = Color.FromArgb(66, 90, 105);
             username.BorderRadius = 6;
             username.BorderThickness = 2;
@@ -201,6 +203,7 @@
             // 
             // password
             // 
+            password.Animated = true;
             password.BorderColor = Color.FromArgb(66, 90, 105);
             password.BorderRadius = 6;
             password.BorderThickness = 2;
@@ -228,6 +231,7 @@
             // 
             // confirmPassword
             // 
+            confirmPassword.Animated = true;
             confirmPassword.BorderColor = Color.FromArgb(66, 90, 105);
             confirmPassword.BorderRadius = 6;
             confirmPassword.BorderThickness = 2;
@@ -252,6 +256,7 @@
             confirmPassword.Size = new Size(202, 39);
             confirmPassword.TabIndex = 4;
             confirmPassword.UseSystemPasswordChar = true;
+            confirmPassword.TextChanged += confirmPassword_TextChanged;
             // 
             // label4
             // 
@@ -276,6 +281,7 @@
             // 
             // guna2Button2
             // 
+            guna2Button2.Animated = true;
             guna2Button2.BackColor = Color.FromArgb(52, 73, 85);
             guna2Button2.CustomizableEdges = customizableEdges13;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
@@ -289,6 +295,8 @@
             guna2Button2.ForeColor = Color.White;
             guna2Button2.Location = new Point(0, 410);
             guna2Button2.Name = "guna2Button2";
+            guna2Button2.PressedColor = Color.White;
+            guna2Button2.PressedDepth = 20;
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Button2.Size = new Size(561, 40);
             guna2Button2.TabIndex = 7;
@@ -297,6 +305,7 @@
             // 
             // guna2Button1
             // 
+            guna2Button1.Animated = true;
             guna2Button1.BackColor = Color.FromArgb(52, 73, 85);
             guna2Button1.BorderRadius = 6;
             guna2Button1.CustomizableEdges = customizableEdges15;
@@ -310,6 +319,8 @@
             guna2Button1.ForeColor = Color.White;
             guna2Button1.Location = new Point(280, 350);
             guna2Button1.Name = "guna2Button1";
+            guna2Button1.PressedColor = Color.White;
+            guna2Button1.PressedDepth = 20;
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2Button1.Size = new Size(98, 40);
             guna2Button1.TabIndex = 5;
@@ -318,6 +329,7 @@
             // 
             // guna2Button3
             // 
+            guna2Button3.Animated = true;
             guna2Button3.BackColor = Color.FromArgb(52, 73, 85);
             guna2Button3.BorderRadius = 6;
             guna2Button3.CustomizableEdges = customizableEdges17;
@@ -331,6 +343,8 @@
             guna2Button3.ForeColor = Color.White;
             guna2Button3.Location = new Point(384, 350);
             guna2Button3.Name = "guna2Button3";
+            guna2Button3.PressedColor = Color.White;
+            guna2Button3.PressedDepth = 20;
             guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2Button3.Size = new Size(98, 40);
             guna2Button3.TabIndex = 6;

@@ -40,12 +40,13 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -72,6 +73,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -82,9 +85,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -109,9 +113,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -138,6 +142,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges102 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges103 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges104 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges105 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges106 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainPage));
             close = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -145,10 +151,8 @@
             stockIn = new Guna.UI2.WinForms.Guna2Button();
             inventory = new Guna.UI2.WinForms.Guna2Button();
             panel3 = new Panel();
-            stockOutClear = new Guna.UI2.WinForms.Guna2Button();
-            stockOutUpdate = new Guna.UI2.WinForms.Guna2Button();
-            stockOutSave = new Guna.UI2.WinForms.Guna2Button();
-            guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            stockout_table = new Guna.UI2.WinForms.Guna2DataGridView();
             stockOutTime = new Guna.UI2.WinForms.Guna2TextBox();
             label37 = new Label();
             stockOutRecievedBy = new Guna.UI2.WinForms.Guna2TextBox();
@@ -175,6 +179,9 @@
             label30 = new Label();
             stockOutItem = new Guna.UI2.WinForms.Guna2TextBox();
             stockOutRequestBy = new Guna.UI2.WinForms.Guna2TextBox();
+            stockOutClear = new Guna.UI2.WinForms.Guna2Button();
+            stockOutUpdate = new Guna.UI2.WinForms.Guna2Button();
+            stockOutSave = new Guna.UI2.WinForms.Guna2Button();
             label22 = new Label();
             stockIn_panel = new Panel();
             stockInReport = new Guna.UI2.WinForms.Guna2Button();
@@ -231,12 +238,13 @@
             productCode = new Guna.UI2.WinForms.Guna2TextBox();
             date = new Guna.UI2.WinForms.Guna2DateTimePicker();
             label3 = new Label();
+            guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             userName = new Label();
             pictureBox1 = new PictureBox();
             userPosition = new Label();
             guna2Panel1.SuspendLayout();
             panel3.SuspendLayout();
-            guna2Panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)stockout_table).BeginInit();
             stockIn_panel.SuspendLayout();
             guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)stockIn_table).BeginInit();
@@ -347,123 +355,124 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(66, 90, 105);
+            panel3.Controls.Add(guna2Button1);
+            panel3.Controls.Add(stockout_table);
+            panel3.Controls.Add(stockOutTime);
+            panel3.Controls.Add(label37);
+            panel3.Controls.Add(stockOutRecievedBy);
+            panel3.Controls.Add(label36);
+            panel3.Controls.Add(stockOutPlateNumber);
+            panel3.Controls.Add(label35);
+            panel3.Controls.Add(label34);
+            panel3.Controls.Add(stockOutTotal);
+            panel3.Controls.Add(label33);
+            panel3.Controls.Add(stockOutOutQuantity);
+            panel3.Controls.Add(label32);
+            panel3.Controls.Add(stockOutQuantity);
+            panel3.Controls.Add(label31);
+            panel3.Controls.Add(stockOutFrom);
+            panel3.Controls.Add(stockOutDate);
+            panel3.Controls.Add(stockOutTo);
+            panel3.Controls.Add(label25);
+            panel3.Controls.Add(stockOutUnit);
+            panel3.Controls.Add(stockOutDriver);
+            panel3.Controls.Add(label26);
+            panel3.Controls.Add(label27);
+            panel3.Controls.Add(label28);
+            panel3.Controls.Add(label29);
+            panel3.Controls.Add(label30);
+            panel3.Controls.Add(stockOutItem);
+            panel3.Controls.Add(stockOutRequestBy);
             panel3.Controls.Add(stockOutClear);
             panel3.Controls.Add(stockOutUpdate);
             panel3.Controls.Add(stockOutSave);
-            panel3.Controls.Add(guna2Panel5);
             panel3.Controls.Add(label22);
             panel3.Location = new Point(0, 40);
             panel3.Name = "panel3";
             panel3.Size = new Size(1167, 572);
             panel3.TabIndex = 11;
             // 
-            // stockOutClear
+            // guna2Button1
             // 
-            stockOutClear.BorderColor = Color.FromArgb(33, 60, 77);
-            stockOutClear.BorderRadius = 6;
-            stockOutClear.BorderThickness = 1;
-            stockOutClear.CustomizableEdges = customizableEdges11;
-            stockOutClear.DisabledState.BorderColor = Color.DarkGray;
-            stockOutClear.DisabledState.CustomBorderColor = Color.DarkGray;
-            stockOutClear.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            stockOutClear.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            stockOutClear.FillColor = Color.FromArgb(33, 60, 77);
-            stockOutClear.Font = new Font("Segoe UI", 9F);
-            stockOutClear.ForeColor = Color.White;
-            stockOutClear.HoverState.BorderColor = Color.FromArgb(33, 60, 77);
-            stockOutClear.HoverState.FillColor = Color.FromArgb(66, 90, 105);
-            stockOutClear.Location = new Point(252, 513);
-            stockOutClear.Name = "stockOutClear";
-            stockOutClear.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            stockOutClear.Size = new Size(78, 38);
-            stockOutClear.TabIndex = 14;
-            stockOutClear.Text = "Clear";
-            stockOutClear.Click += stockOutClear_Click;
+            guna2Button1.BorderColor = Color.FromArgb(33, 60, 77);
+            guna2Button1.BorderRadius = 6;
+            guna2Button1.BorderThickness = 1;
+            guna2Button1.CustomizableEdges = customizableEdges11;
+            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button1.FillColor = Color.FromArgb(33, 60, 77);
+            guna2Button1.Font = new Font("Segoe UI", 9F);
+            guna2Button1.ForeColor = Color.White;
+            guna2Button1.HoverState.BorderColor = Color.FromArgb(33, 60, 77);
+            guna2Button1.HoverState.FillColor = Color.FromArgb(66, 90, 105);
+            guna2Button1.Location = new Point(313, 513);
+            guna2Button1.Name = "guna2Button1";
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2Button1.Size = new Size(88, 38);
+            guna2Button1.TabIndex = 65;
+            guna2Button1.Text = "Report";
+            guna2Button1.Click += guna2Button1_Click;
             // 
-            // stockOutUpdate
+            // stockout_table
             // 
-            stockOutUpdate.BorderColor = Color.FromArgb(33, 60, 77);
-            stockOutUpdate.BorderRadius = 6;
-            stockOutUpdate.BorderThickness = 1;
-            stockOutUpdate.CustomizableEdges = customizableEdges13;
-            stockOutUpdate.DisabledState.BorderColor = Color.DarkGray;
-            stockOutUpdate.DisabledState.CustomBorderColor = Color.DarkGray;
-            stockOutUpdate.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            stockOutUpdate.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            stockOutUpdate.FillColor = Color.FromArgb(33, 60, 77);
-            stockOutUpdate.Font = new Font("Segoe UI", 9F);
-            stockOutUpdate.ForeColor = Color.White;
-            stockOutUpdate.HoverState.BorderColor = Color.FromArgb(33, 60, 77);
-            stockOutUpdate.HoverState.FillColor = Color.FromArgb(66, 90, 105);
-            stockOutUpdate.Location = new Point(168, 513);
-            stockOutUpdate.Name = "stockOutUpdate";
-            stockOutUpdate.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            stockOutUpdate.Size = new Size(78, 38);
-            stockOutUpdate.TabIndex = 13;
-            stockOutUpdate.Text = "Update";
-            stockOutUpdate.Click += stockOutUpdate_Click;
-            // 
-            // stockOutSave
-            // 
-            stockOutSave.BorderColor = Color.FromArgb(33, 60, 77);
-            stockOutSave.BorderRadius = 6;
-            stockOutSave.BorderThickness = 1;
-            stockOutSave.CustomizableEdges = customizableEdges15;
-            stockOutSave.DisabledState.BorderColor = Color.DarkGray;
-            stockOutSave.DisabledState.CustomBorderColor = Color.DarkGray;
-            stockOutSave.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            stockOutSave.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            stockOutSave.FillColor = Color.FromArgb(33, 60, 77);
-            stockOutSave.Font = new Font("Segoe UI", 9F);
-            stockOutSave.ForeColor = Color.White;
-            stockOutSave.HoverState.BorderColor = Color.FromArgb(33, 60, 77);
-            stockOutSave.HoverState.FillColor = Color.FromArgb(66, 90, 105);
-            stockOutSave.Location = new Point(84, 513);
-            stockOutSave.Name = "stockOutSave";
-            stockOutSave.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            stockOutSave.Size = new Size(78, 38);
-            stockOutSave.TabIndex = 12;
-            stockOutSave.Text = "Save";
-            stockOutSave.Click += stockOutSave_Click;
-            // 
-            // guna2Panel5
-            // 
-            guna2Panel5.BorderColor = Color.FromArgb(47, 63, 74);
-            guna2Panel5.BorderRadius = 8;
-            guna2Panel5.BorderThickness = 2;
-            guna2Panel5.Controls.Add(stockOutTime);
-            guna2Panel5.Controls.Add(label37);
-            guna2Panel5.Controls.Add(stockOutRecievedBy);
-            guna2Panel5.Controls.Add(label36);
-            guna2Panel5.Controls.Add(stockOutPlateNumber);
-            guna2Panel5.Controls.Add(label35);
-            guna2Panel5.Controls.Add(label34);
-            guna2Panel5.Controls.Add(stockOutTotal);
-            guna2Panel5.Controls.Add(label33);
-            guna2Panel5.Controls.Add(stockOutOutQuantity);
-            guna2Panel5.Controls.Add(label32);
-            guna2Panel5.Controls.Add(stockOutQuantity);
-            guna2Panel5.Controls.Add(label31);
-            guna2Panel5.Controls.Add(stockOutFrom);
-            guna2Panel5.Controls.Add(stockOutDate);
-            guna2Panel5.Controls.Add(stockOutTo);
-            guna2Panel5.Controls.Add(label25);
-            guna2Panel5.Controls.Add(stockOutUnit);
-            guna2Panel5.Controls.Add(stockOutDriver);
-            guna2Panel5.Controls.Add(label26);
-            guna2Panel5.Controls.Add(label27);
-            guna2Panel5.Controls.Add(label28);
-            guna2Panel5.Controls.Add(label29);
-            guna2Panel5.Controls.Add(label30);
-            guna2Panel5.Controls.Add(stockOutItem);
-            guna2Panel5.Controls.Add(stockOutRequestBy);
-            guna2Panel5.CustomizableEdges = customizableEdges43;
-            guna2Panel5.Location = new Point(83, 89);
-            guna2Panel5.Name = "guna2Panel5";
-            guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges44;
-            guna2Panel5.Size = new Size(1002, 394);
-            guna2Panel5.TabIndex = 36;
-            guna2Panel5.Paint += guna2Panel5_Paint;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle1.ForeColor = Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle1.SelectionForeColor = Color.White;
+            stockout_table.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            stockout_table.BackgroundColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.Padding = new Padding(5);
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle2.SelectionForeColor = Color.White;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            stockout_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            stockout_table.ColumnHeadersHeight = 40;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.White;
+            dataGridViewCellStyle3.Padding = new Padding(5);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle3.SelectionForeColor = Color.White;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            stockout_table.DefaultCellStyle = dataGridViewCellStyle3;
+            stockout_table.GridColor = Color.FromArgb(125, 137, 149);
+            stockout_table.Location = new Point(267, 287);
+            stockout_table.Name = "stockout_table";
+            stockout_table.ReadOnly = true;
+            stockout_table.RowHeadersVisible = false;
+            stockout_table.RowTemplate.Height = 30;
+            stockout_table.RowTemplate.ReadOnly = true;
+            stockout_table.Size = new Size(844, 206);
+            stockout_table.TabIndex = 64;
+            stockout_table.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            stockout_table.ThemeStyle.AlternatingRowsStyle.Font = null;
+            stockout_table.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            stockout_table.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            stockout_table.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            stockout_table.ThemeStyle.BackColor = Color.FromArgb(52, 73, 85);
+            stockout_table.ThemeStyle.GridColor = Color.FromArgb(125, 137, 149);
+            stockout_table.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            stockout_table.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            stockout_table.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            stockout_table.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            stockout_table.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            stockout_table.ThemeStyle.HeaderStyle.Height = 40;
+            stockout_table.ThemeStyle.ReadOnly = true;
+            stockout_table.ThemeStyle.RowsStyle.BackColor = Color.White;
+            stockout_table.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            stockout_table.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            stockout_table.ThemeStyle.RowsStyle.ForeColor = Color.White;
+            stockout_table.ThemeStyle.RowsStyle.Height = 30;
+            stockout_table.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            stockout_table.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            stockout_table.CellClick += stockout_table_CellClick;
             // 
             // stockOutTime
             // 
@@ -471,7 +480,7 @@
             stockOutTime.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutTime.BorderRadius = 4;
             stockOutTime.BorderThickness = 2;
-            stockOutTime.CustomizableEdges = customizableEdges17;
+            stockOutTime.CustomizableEdges = customizableEdges13;
             stockOutTime.DefaultText = "";
             stockOutTime.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutTime.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -482,23 +491,23 @@
             stockOutTime.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutTime.ForeColor = Color.White;
             stockOutTime.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutTime.Location = new Point(528, 315);
+            stockOutTime.Location = new Point(472, 224);
             stockOutTime.Name = "stockOutTime";
             stockOutTime.PasswordChar = '\0';
             stockOutTime.PlaceholderText = "";
             stockOutTime.SelectedText = "";
-            stockOutTime.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            stockOutTime.Size = new Size(423, 38);
-            stockOutTime.TabIndex = 11;
+            stockOutTime.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            stockOutTime.Size = new Size(304, 39);
+            stockOutTime.TabIndex = 51;
             // 
             // label37
             // 
             label37.AutoSize = true;
             label37.ForeColor = Color.FromArgb(125, 137, 149);
-            label37.Location = new Point(534, 298);
+            label37.Location = new Point(478, 207);
             label37.Name = "label37";
             label37.Size = new Size(33, 15);
-            label37.TabIndex = 37;
+            label37.TabIndex = 63;
             label37.Text = "Time";
             // 
             // stockOutRecievedBy
@@ -507,7 +516,7 @@
             stockOutRecievedBy.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutRecievedBy.BorderRadius = 4;
             stockOutRecievedBy.BorderThickness = 2;
-            stockOutRecievedBy.CustomizableEdges = customizableEdges19;
+            stockOutRecievedBy.CustomizableEdges = customizableEdges15;
             stockOutRecievedBy.DefaultText = "";
             stockOutRecievedBy.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutRecievedBy.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -518,24 +527,25 @@
             stockOutRecievedBy.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutRecievedBy.ForeColor = Color.White;
             stockOutRecievedBy.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutRecievedBy.Location = new Point(528, 248);
+            stockOutRecievedBy.Location = new Point(807, 223);
             stockOutRecievedBy.Name = "stockOutRecievedBy";
             stockOutRecievedBy.PasswordChar = '\0';
             stockOutRecievedBy.PlaceholderText = "";
             stockOutRecievedBy.SelectedText = "";
-            stockOutRecievedBy.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            stockOutRecievedBy.Size = new Size(423, 37);
-            stockOutRecievedBy.TabIndex = 10;
+            stockOutRecievedBy.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            stockOutRecievedBy.Size = new Size(304, 39);
+            stockOutRecievedBy.TabIndex = 48;
             // 
             // label36
             // 
             label36.AutoSize = true;
             label36.ForeColor = Color.FromArgb(125, 137, 149);
-            label36.Location = new Point(534, 231);
+            label36.Location = new Point(813, 206);
             label36.Name = "label36";
             label36.Size = new Size(70, 15);
-            label36.TabIndex = 35;
+            label36.TabIndex = 62;
             label36.Text = "Recieved by";
+            label36.Click += label36_Click;
             // 
             // stockOutPlateNumber
             // 
@@ -543,7 +553,7 @@
             stockOutPlateNumber.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutPlateNumber.BorderRadius = 4;
             stockOutPlateNumber.BorderThickness = 2;
-            stockOutPlateNumber.CustomizableEdges = customizableEdges21;
+            stockOutPlateNumber.CustomizableEdges = customizableEdges17;
             stockOutPlateNumber.DefaultText = "";
             stockOutPlateNumber.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutPlateNumber.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -554,33 +564,34 @@
             stockOutPlateNumber.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutPlateNumber.ForeColor = Color.White;
             stockOutPlateNumber.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutPlateNumber.Location = new Point(528, 181);
+            stockOutPlateNumber.Location = new Point(807, 161);
             stockOutPlateNumber.Name = "stockOutPlateNumber";
             stockOutPlateNumber.PasswordChar = '\0';
             stockOutPlateNumber.PlaceholderText = "";
             stockOutPlateNumber.SelectedText = "";
-            stockOutPlateNumber.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            stockOutPlateNumber.Size = new Size(423, 39);
-            stockOutPlateNumber.TabIndex = 9;
+            stockOutPlateNumber.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            stockOutPlateNumber.Size = new Size(304, 39);
+            stockOutPlateNumber.TabIndex = 47;
             // 
             // label35
             // 
             label35.AutoSize = true;
             label35.ForeColor = Color.FromArgb(125, 137, 149);
-            label35.Location = new Point(534, 164);
+            label35.Location = new Point(813, 144);
             label35.Name = "label35";
             label35.Size = new Size(81, 15);
-            label35.TabIndex = 33;
+            label35.TabIndex = 61;
             label35.Text = "Plate number ";
             // 
             // label34
             // 
             label34.AutoSize = true;
+            label34.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label34.ForeColor = Color.FromArgb(125, 137, 149);
-            label34.Location = new Point(54, 298);
+            label34.Location = new Point(65, 352);
             label34.Name = "label34";
-            label34.Size = new Size(39, 15);
-            label34.TabIndex = 31;
+            label34.Size = new Size(80, 32);
+            label34.TabIndex = 60;
             label34.Text = "TOTAL";
             // 
             // stockOutTotal
@@ -589,7 +600,7 @@
             stockOutTotal.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutTotal.BorderRadius = 4;
             stockOutTotal.BorderThickness = 2;
-            stockOutTotal.CustomizableEdges = customizableEdges23;
+            stockOutTotal.CustomizableEdges = customizableEdges19;
             stockOutTotal.DefaultText = "";
             stockOutTotal.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutTotal.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -600,23 +611,23 @@
             stockOutTotal.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutTotal.ForeColor = Color.White;
             stockOutTotal.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutTotal.Location = new Point(48, 315);
+            stockOutTotal.Location = new Point(59, 389);
             stockOutTotal.Name = "stockOutTotal";
             stockOutTotal.PasswordChar = '\0';
             stockOutTotal.PlaceholderText = "";
             stockOutTotal.SelectedText = "";
-            stockOutTotal.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            stockOutTotal.Size = new Size(415, 54);
-            stockOutTotal.TabIndex = 30;
+            stockOutTotal.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            stockOutTotal.Size = new Size(178, 104);
+            stockOutTotal.TabIndex = 59;
             // 
             // label33
             // 
             label33.AutoSize = true;
             label33.ForeColor = Color.FromArgb(125, 137, 149);
-            label33.Location = new Point(291, 229);
+            label33.Location = new Point(273, 209);
             label33.Name = "label33";
             label33.Size = new Size(76, 15);
-            label33.TabIndex = 29;
+            label33.TabIndex = 58;
             label33.Text = "Out Quantity";
             // 
             // stockOutOutQuantity
@@ -625,7 +636,7 @@
             stockOutOutQuantity.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutOutQuantity.BorderRadius = 4;
             stockOutOutQuantity.BorderThickness = 2;
-            stockOutOutQuantity.CustomizableEdges = customizableEdges25;
+            stockOutOutQuantity.CustomizableEdges = customizableEdges21;
             stockOutOutQuantity.DefaultText = "";
             stockOutOutQuantity.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutOutQuantity.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -636,25 +647,24 @@
             stockOutOutQuantity.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutOutQuantity.ForeColor = Color.White;
             stockOutOutQuantity.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutOutQuantity.Location = new Point(285, 246);
+            stockOutOutQuantity.Location = new Point(267, 226);
             stockOutOutQuantity.Name = "stockOutOutQuantity";
             stockOutOutQuantity.PasswordChar = '\0';
             stockOutOutQuantity.PlaceholderText = "";
             stockOutOutQuantity.SelectedText = "";
-            stockOutOutQuantity.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            stockOutOutQuantity.ShadowDecoration.CustomizableEdges = customizableEdges22;
             stockOutOutQuantity.Size = new Size(178, 39);
-            stockOutOutQuantity.TabIndex = 6;
-            stockOutOutQuantity.TextChanged += outQuantity_textchanged;
-            stockOutOutQuantity.Leave += stockoutOutQuantity_leave;
+            stockOutOutQuantity.TabIndex = 43;
+            stockOutOutQuantity.TextChanged += stockOutOutQuantity_TextChanged;
             // 
             // label32
             // 
             label32.AutoSize = true;
             label32.ForeColor = Color.FromArgb(125, 137, 149);
-            label32.Location = new Point(291, 165);
+            label32.Location = new Point(273, 145);
             label32.Name = "label32";
             label32.Size = new Size(53, 15);
-            label32.TabIndex = 27;
+            label32.TabIndex = 57;
             label32.Text = "Quantity";
             // 
             // stockOutQuantity
@@ -663,34 +673,35 @@
             stockOutQuantity.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutQuantity.BorderRadius = 4;
             stockOutQuantity.BorderThickness = 2;
-            stockOutQuantity.CustomizableEdges = customizableEdges27;
+            stockOutQuantity.CustomizableEdges = customizableEdges23;
             stockOutQuantity.DefaultText = "";
-            stockOutQuantity.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            stockOutQuantity.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            stockOutQuantity.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            stockOutQuantity.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            stockOutQuantity.DisabledState.BorderColor = Color.FromArgb(52, 73, 85);
+            stockOutQuantity.DisabledState.FillColor = Color.FromArgb(52, 73, 85);
+            stockOutQuantity.DisabledState.ForeColor = Color.White;
+            stockOutQuantity.DisabledState.PlaceholderForeColor = Color.White;
+            stockOutQuantity.Enabled = false;
             stockOutQuantity.FillColor = Color.FromArgb(52, 73, 85);
             stockOutQuantity.FocusedState.BorderColor = Color.IndianRed;
             stockOutQuantity.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutQuantity.ForeColor = Color.White;
             stockOutQuantity.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutQuantity.Location = new Point(285, 182);
+            stockOutQuantity.Location = new Point(267, 162);
             stockOutQuantity.Name = "stockOutQuantity";
             stockOutQuantity.PasswordChar = '\0';
             stockOutQuantity.PlaceholderText = "";
             stockOutQuantity.SelectedText = "";
-            stockOutQuantity.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            stockOutQuantity.Size = new Size(178, 38);
-            stockOutQuantity.TabIndex = 4;
+            stockOutQuantity.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            stockOutQuantity.Size = new Size(178, 39);
+            stockOutQuantity.TabIndex = 41;
             // 
             // label31
             // 
             label31.AutoSize = true;
             label31.ForeColor = Color.FromArgb(125, 137, 149);
-            label31.Location = new Point(291, 103);
+            label31.Location = new Point(273, 85);
             label31.Name = "label31";
             label31.Size = new Size(35, 15);
-            label31.TabIndex = 21;
+            label31.TabIndex = 56;
             label31.Text = "From";
             // 
             // stockOutFrom
@@ -699,7 +710,7 @@
             stockOutFrom.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutFrom.BorderRadius = 4;
             stockOutFrom.BorderThickness = 2;
-            stockOutFrom.CustomizableEdges = customizableEdges29;
+            stockOutFrom.CustomizableEdges = customizableEdges25;
             stockOutFrom.DefaultText = "";
             stockOutFrom.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutFrom.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -710,14 +721,14 @@
             stockOutFrom.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutFrom.ForeColor = Color.White;
             stockOutFrom.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutFrom.Location = new Point(285, 120);
+            stockOutFrom.Location = new Point(267, 102);
             stockOutFrom.Name = "stockOutFrom";
             stockOutFrom.PasswordChar = '\0';
             stockOutFrom.PlaceholderText = "";
             stockOutFrom.SelectedText = "";
-            stockOutFrom.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            stockOutFrom.Size = new Size(178, 36);
-            stockOutFrom.TabIndex = 2;
+            stockOutFrom.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            stockOutFrom.Size = new Size(178, 39);
+            stockOutFrom.TabIndex = 39;
             // 
             // stockOutDate
             // 
@@ -725,20 +736,20 @@
             stockOutDate.BorderColor = Color.FromArgb(66, 90, 105);
             stockOutDate.BorderRadius = 4;
             stockOutDate.Checked = true;
-            stockOutDate.CustomizableEdges = customizableEdges31;
+            stockOutDate.CustomizableEdges = customizableEdges27;
             stockOutDate.FillColor = Color.FromArgb(52, 73, 85);
             stockOutDate.FocusedColor = Color.IndianRed;
             stockOutDate.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutDate.ForeColor = Color.White;
             stockOutDate.Format = DateTimePickerFormat.Long;
             stockOutDate.HoverState.BorderColor = Color.FromArgb(125, 137, 149);
-            stockOutDate.Location = new Point(48, 62);
+            stockOutDate.Location = new Point(59, 103);
             stockOutDate.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             stockOutDate.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             stockOutDate.Name = "stockOutDate";
-            stockOutDate.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            stockOutDate.ShadowDecoration.CustomizableEdges = customizableEdges28;
             stockOutDate.Size = new Size(178, 35);
-            stockOutDate.TabIndex = 8;
+            stockOutDate.TabIndex = 46;
             stockOutDate.Value = new DateTime(2024, 4, 16, 8, 33, 18, 171);
             // 
             // stockOutTo
@@ -747,7 +758,7 @@
             stockOutTo.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutTo.BorderRadius = 4;
             stockOutTo.BorderThickness = 2;
-            stockOutTo.CustomizableEdges = customizableEdges33;
+            stockOutTo.CustomizableEdges = customizableEdges29;
             stockOutTo.DefaultText = "";
             stockOutTo.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutTo.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -758,23 +769,23 @@
             stockOutTo.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutTo.ForeColor = Color.White;
             stockOutTo.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutTo.Location = new Point(48, 122);
+            stockOutTo.Location = new Point(59, 163);
             stockOutTo.Name = "stockOutTo";
             stockOutTo.PasswordChar = '\0';
             stockOutTo.PlaceholderText = "";
             stockOutTo.SelectedText = "";
-            stockOutTo.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            stockOutTo.Size = new Size(178, 38);
-            stockOutTo.TabIndex = 1;
+            stockOutTo.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            stockOutTo.Size = new Size(178, 39);
+            stockOutTo.TabIndex = 38;
             // 
             // label25
             // 
             label25.AutoSize = true;
             label25.ForeColor = Color.FromArgb(125, 137, 149);
-            label25.Location = new Point(54, 229);
+            label25.Location = new Point(65, 270);
             label25.Name = "label25";
             label25.Size = new Size(29, 15);
-            label25.TabIndex = 15;
+            label25.TabIndex = 53;
             label25.Text = "Unit";
             // 
             // stockOutUnit
@@ -783,7 +794,7 @@
             stockOutUnit.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutUnit.BorderRadius = 4;
             stockOutUnit.BorderThickness = 2;
-            stockOutUnit.CustomizableEdges = customizableEdges35;
+            stockOutUnit.CustomizableEdges = customizableEdges31;
             stockOutUnit.DefaultText = "";
             stockOutUnit.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutUnit.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -794,14 +805,14 @@
             stockOutUnit.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutUnit.ForeColor = Color.White;
             stockOutUnit.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutUnit.Location = new Point(48, 246);
+            stockOutUnit.Location = new Point(59, 287);
             stockOutUnit.Name = "stockOutUnit";
             stockOutUnit.PasswordChar = '\0';
             stockOutUnit.PlaceholderText = "";
             stockOutUnit.SelectedText = "";
-            stockOutUnit.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            stockOutUnit.ShadowDecoration.CustomizableEdges = customizableEdges32;
             stockOutUnit.Size = new Size(178, 39);
-            stockOutUnit.TabIndex = 5;
+            stockOutUnit.TabIndex = 42;
             // 
             // stockOutDriver
             // 
@@ -809,7 +820,7 @@
             stockOutDriver.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutDriver.BorderRadius = 4;
             stockOutDriver.BorderThickness = 2;
-            stockOutDriver.CustomizableEdges = customizableEdges37;
+            stockOutDriver.CustomizableEdges = customizableEdges33;
             stockOutDriver.DefaultText = "";
             stockOutDriver.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutDriver.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -820,63 +831,63 @@
             stockOutDriver.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutDriver.ForeColor = Color.White;
             stockOutDriver.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutDriver.Location = new Point(528, 118);
+            stockOutDriver.Location = new Point(472, 164);
             stockOutDriver.Name = "stockOutDriver";
             stockOutDriver.PasswordChar = '\0';
             stockOutDriver.PlaceholderText = "";
             stockOutDriver.SelectedText = "";
-            stockOutDriver.ShadowDecoration.CustomizableEdges = customizableEdges38;
-            stockOutDriver.Size = new Size(423, 38);
-            stockOutDriver.TabIndex = 8;
+            stockOutDriver.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            stockOutDriver.Size = new Size(304, 39);
+            stockOutDriver.TabIndex = 45;
             // 
             // label26
             // 
             label26.AutoSize = true;
             label26.ForeColor = Color.FromArgb(125, 137, 149);
-            label26.Location = new Point(54, 45);
+            label26.Location = new Point(65, 86);
             label26.Name = "label26";
             label26.Size = new Size(31, 15);
-            label26.TabIndex = 10;
+            label26.TabIndex = 49;
             label26.Text = "Date";
             // 
             // label27
             // 
             label27.AutoSize = true;
             label27.ForeColor = Color.FromArgb(125, 137, 149);
-            label27.Location = new Point(54, 169);
+            label27.Location = new Point(65, 210);
             label27.Name = "label27";
             label27.Size = new Size(31, 15);
-            label27.TabIndex = 13;
+            label27.TabIndex = 52;
             label27.Text = "Item";
             // 
             // label28
             // 
             label28.AutoSize = true;
             label28.ForeColor = Color.FromArgb(125, 137, 149);
-            label28.Location = new Point(534, 39);
+            label28.Location = new Point(478, 85);
             label28.Name = "label28";
             label28.Size = new Size(65, 15);
-            label28.TabIndex = 19;
+            label28.TabIndex = 55;
             label28.Text = "Request by";
             // 
             // label29
             // 
             label29.AutoSize = true;
             label29.ForeColor = Color.FromArgb(125, 137, 149);
-            label29.Location = new Point(534, 101);
+            label29.Location = new Point(478, 147);
             label29.Name = "label29";
             label29.Size = new Size(38, 15);
-            label29.TabIndex = 17;
+            label29.TabIndex = 54;
             label29.Text = "Driver";
             // 
             // label30
             // 
             label30.AutoSize = true;
             label30.ForeColor = Color.FromArgb(125, 137, 149);
-            label30.Location = new Point(54, 105);
+            label30.Location = new Point(65, 146);
             label30.Name = "label30";
             label30.Size = new Size(19, 15);
-            label30.TabIndex = 11;
+            label30.TabIndex = 50;
             label30.Text = "To";
             // 
             // stockOutItem
@@ -885,7 +896,7 @@
             stockOutItem.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutItem.BorderRadius = 4;
             stockOutItem.BorderThickness = 2;
-            stockOutItem.CustomizableEdges = customizableEdges39;
+            stockOutItem.CustomizableEdges = customizableEdges35;
             stockOutItem.DefaultText = "";
             stockOutItem.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutItem.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -896,16 +907,16 @@
             stockOutItem.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutItem.ForeColor = Color.White;
             stockOutItem.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutItem.Location = new Point(48, 186);
+            stockOutItem.Location = new Point(59, 227);
             stockOutItem.Name = "stockOutItem";
             stockOutItem.PasswordChar = '\0';
             stockOutItem.PlaceholderText = "";
             stockOutItem.SelectedText = "";
-            stockOutItem.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            stockOutItem.Size = new Size(178, 34);
-            stockOutItem.TabIndex = 3;
-            stockOutItem.TextChanged += stockout_item_textchanged;
-            stockOutItem.KeyDown += stockout_keydown;
+            stockOutItem.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            stockOutItem.Size = new Size(178, 39);
+            stockOutItem.TabIndex = 40;
+            stockOutItem.TextChanged += stockOutItem_TextChanged;
+            stockOutItem.KeyDown += stockOutItem_KeyDown;
             // 
             // stockOutRequestBy
             // 
@@ -913,7 +924,7 @@
             stockOutRequestBy.BorderColor = Color.FromArgb(52, 73, 85);
             stockOutRequestBy.BorderRadius = 4;
             stockOutRequestBy.BorderThickness = 2;
-            stockOutRequestBy.CustomizableEdges = customizableEdges41;
+            stockOutRequestBy.CustomizableEdges = customizableEdges37;
             stockOutRequestBy.DefaultText = "";
             stockOutRequestBy.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             stockOutRequestBy.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -924,14 +935,83 @@
             stockOutRequestBy.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockOutRequestBy.ForeColor = Color.White;
             stockOutRequestBy.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockOutRequestBy.Location = new Point(528, 56);
+            stockOutRequestBy.Location = new Point(472, 102);
             stockOutRequestBy.Name = "stockOutRequestBy";
             stockOutRequestBy.PasswordChar = '\0';
             stockOutRequestBy.PlaceholderText = "";
             stockOutRequestBy.SelectedText = "";
-            stockOutRequestBy.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            stockOutRequestBy.Size = new Size(423, 36);
-            stockOutRequestBy.TabIndex = 7;
+            stockOutRequestBy.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            stockOutRequestBy.Size = new Size(304, 39);
+            stockOutRequestBy.TabIndex = 44;
+            // 
+            // stockOutClear
+            // 
+            stockOutClear.BorderColor = Color.FromArgb(33, 60, 77);
+            stockOutClear.BorderRadius = 6;
+            stockOutClear.BorderThickness = 1;
+            stockOutClear.CustomizableEdges = customizableEdges39;
+            stockOutClear.DisabledState.BorderColor = Color.DarkGray;
+            stockOutClear.DisabledState.CustomBorderColor = Color.DarkGray;
+            stockOutClear.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            stockOutClear.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            stockOutClear.FillColor = Color.FromArgb(33, 60, 77);
+            stockOutClear.Font = new Font("Segoe UI", 9F);
+            stockOutClear.ForeColor = Color.White;
+            stockOutClear.HoverState.BorderColor = Color.FromArgb(33, 60, 77);
+            stockOutClear.HoverState.FillColor = Color.FromArgb(66, 90, 105);
+            stockOutClear.Location = new Point(229, 513);
+            stockOutClear.Name = "stockOutClear";
+            stockOutClear.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            stockOutClear.Size = new Size(78, 38);
+            stockOutClear.TabIndex = 14;
+            stockOutClear.Text = "Clear";
+            stockOutClear.Click += stockOutClear_Click;
+            // 
+            // stockOutUpdate
+            // 
+            stockOutUpdate.BorderColor = Color.FromArgb(33, 60, 77);
+            stockOutUpdate.BorderRadius = 6;
+            stockOutUpdate.BorderThickness = 1;
+            stockOutUpdate.CustomizableEdges = customizableEdges41;
+            stockOutUpdate.DisabledState.BorderColor = Color.DarkGray;
+            stockOutUpdate.DisabledState.CustomBorderColor = Color.DarkGray;
+            stockOutUpdate.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            stockOutUpdate.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            stockOutUpdate.FillColor = Color.FromArgb(33, 60, 77);
+            stockOutUpdate.Font = new Font("Segoe UI", 9F);
+            stockOutUpdate.ForeColor = Color.White;
+            stockOutUpdate.HoverState.BorderColor = Color.FromArgb(33, 60, 77);
+            stockOutUpdate.HoverState.FillColor = Color.FromArgb(66, 90, 105);
+            stockOutUpdate.Location = new Point(145, 513);
+            stockOutUpdate.Name = "stockOutUpdate";
+            stockOutUpdate.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            stockOutUpdate.Size = new Size(78, 38);
+            stockOutUpdate.TabIndex = 13;
+            stockOutUpdate.Text = "Update";
+            stockOutUpdate.Click += stockOutUpdate_Click;
+            // 
+            // stockOutSave
+            // 
+            stockOutSave.BorderColor = Color.FromArgb(33, 60, 77);
+            stockOutSave.BorderRadius = 6;
+            stockOutSave.BorderThickness = 1;
+            stockOutSave.CustomizableEdges = customizableEdges43;
+            stockOutSave.DisabledState.BorderColor = Color.DarkGray;
+            stockOutSave.DisabledState.CustomBorderColor = Color.DarkGray;
+            stockOutSave.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            stockOutSave.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            stockOutSave.FillColor = Color.FromArgb(33, 60, 77);
+            stockOutSave.Font = new Font("Segoe UI", 9F);
+            stockOutSave.ForeColor = Color.White;
+            stockOutSave.HoverState.BorderColor = Color.FromArgb(33, 60, 77);
+            stockOutSave.HoverState.FillColor = Color.FromArgb(66, 90, 105);
+            stockOutSave.Location = new Point(61, 513);
+            stockOutSave.Name = "stockOutSave";
+            stockOutSave.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            stockOutSave.Size = new Size(78, 38);
+            stockOutSave.TabIndex = 12;
+            stockOutSave.Text = "Save";
+            stockOutSave.Click += stockOutSave_Click;
             // 
             // label22
             // 
@@ -955,7 +1035,7 @@
             stockIn_panel.Controls.Add(guna2Panel2);
             stockIn_panel.Controls.Add(label17);
             stockIn_panel.ForeColor = SystemColors.ControlText;
-            stockIn_panel.Location = new Point(0, 40);
+            stockIn_panel.Location = new Point(0, 41);
             stockIn_panel.Name = "stockIn_panel";
             stockIn_panel.Size = new Size(1167, 572);
             stockIn_panel.TabIndex = 10;
@@ -981,6 +1061,7 @@
             stockInReport.Size = new Size(100, 38);
             stockInReport.TabIndex = 36;
             stockInReport.Text = "In report";
+            stockInReport.Click += stockInReport_Click;
             // 
             // stockInClear
             // 
@@ -1055,7 +1136,7 @@
             // 
             guna2Panel3.BackColor = Color.FromArgb(66, 90, 105);
             guna2Panel3.BorderColor = Color.FromArgb(52, 73, 85);
-            guna2Panel3.BorderRadius = 8;
+            guna2Panel3.BorderRadius = 6;
             guna2Panel3.BorderThickness = 2;
             guna2Panel3.Controls.Add(stockIn_table);
             guna2Panel3.CustomizableEdges = customizableEdges53;
@@ -1068,37 +1149,42 @@
             // 
             // stockIn_table
             // 
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle1.ForeColor = Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(125, 137, 149);
-            dataGridViewCellStyle1.SelectionForeColor = Color.White;
-            stockIn_table.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle4.ForeColor = Color.White;
+            dataGridViewCellStyle4.Padding = new Padding(5);
+            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle4.SelectionForeColor = Color.White;
+            stockIn_table.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             stockIn_table.BackgroundColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.Padding = new Padding(5);
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(125, 137, 149);
-            dataGridViewCellStyle2.SelectionForeColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            stockIn_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            stockIn_table.ColumnHeadersHeight = 29;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle5.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.Padding = new Padding(5);
+            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle5.SelectionForeColor = Color.White;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            stockIn_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            stockIn_table.ColumnHeadersHeight = 40;
             stockIn_table.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = Color.White;
-            dataGridViewCellStyle3.Padding = new Padding(5);
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(125, 137, 149);
-            dataGridViewCellStyle3.SelectionForeColor = Color.White;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            stockIn_table.DefaultCellStyle = dataGridViewCellStyle3;
-            stockIn_table.GridColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = Color.White;
+            dataGridViewCellStyle6.Padding = new Padding(5);
+            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle6.SelectionForeColor = Color.White;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            stockIn_table.DefaultCellStyle = dataGridViewCellStyle6;
+            stockIn_table.GridColor = Color.FromArgb(66, 90, 105);
             stockIn_table.Location = new Point(11, 11);
             stockIn_table.Name = "stockIn_table";
+            stockIn_table.ReadOnly = true;
             stockIn_table.RowHeadersVisible = false;
-            stockIn_table.Size = new Size(978, 151);
+            dataGridViewCellStyle7.Padding = new Padding(5);
+            stockIn_table.RowsDefaultCellStyle = dataGridViewCellStyle7;
+            stockIn_table.RowTemplate.Height = 30;
+            stockIn_table.Size = new Size(979, 151);
             stockIn_table.TabIndex = 31;
             stockIn_table.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             stockIn_table.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1106,26 +1192,28 @@
             stockIn_table.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
             stockIn_table.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
             stockIn_table.ThemeStyle.BackColor = Color.FromArgb(52, 73, 85);
-            stockIn_table.ThemeStyle.GridColor = Color.FromArgb(125, 137, 149);
+            stockIn_table.ThemeStyle.GridColor = Color.FromArgb(66, 90, 105);
             stockIn_table.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
             stockIn_table.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
             stockIn_table.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
             stockIn_table.ThemeStyle.HeaderStyle.ForeColor = Color.White;
             stockIn_table.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            stockIn_table.ThemeStyle.HeaderStyle.Height = 29;
-            stockIn_table.ThemeStyle.ReadOnly = false;
+            stockIn_table.ThemeStyle.HeaderStyle.Height = 40;
+            stockIn_table.ThemeStyle.ReadOnly = true;
             stockIn_table.ThemeStyle.RowsStyle.BackColor = Color.White;
             stockIn_table.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
             stockIn_table.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
             stockIn_table.ThemeStyle.RowsStyle.ForeColor = Color.White;
-            stockIn_table.ThemeStyle.RowsStyle.Height = 25;
+            stockIn_table.ThemeStyle.RowsStyle.Height = 30;
             stockIn_table.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             stockIn_table.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            stockIn_table.CellClick += stockInTable_cellClicked;
+            stockIn_table.DataBindingComplete += stockIn_table_DataBindingComplete;
             // 
             // guna2Panel2
             // 
             guna2Panel2.BorderColor = Color.FromArgb(47, 63, 74);
-            guna2Panel2.BorderRadius = 8;
+            guna2Panel2.BorderRadius = 6;
             guna2Panel2.BorderThickness = 2;
             guna2Panel2.Controls.Add(stockinDate);
             guna2Panel2.Controls.Add(stockInItem);
@@ -1198,7 +1286,7 @@
             // 
             label21.AutoSize = true;
             label21.ForeColor = Color.FromArgb(125, 137, 149);
-            label21.Location = new Point(299, 142);
+            label21.Location = new Point(273, 142);
             label21.Name = "label21";
             label21.Size = new Size(53, 15);
             label21.TabIndex = 15;
@@ -1212,22 +1300,23 @@
             stockInQuantity.BorderThickness = 2;
             stockInQuantity.CustomizableEdges = customizableEdges59;
             stockInQuantity.DefaultText = "";
-            stockInQuantity.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            stockInQuantity.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            stockInQuantity.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            stockInQuantity.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            stockInQuantity.DisabledState.BorderColor = Color.FromArgb(52, 73, 85);
+            stockInQuantity.DisabledState.FillColor = Color.FromArgb(52, 73, 85);
+            stockInQuantity.DisabledState.ForeColor = Color.White;
+            stockInQuantity.DisabledState.PlaceholderForeColor = Color.White;
             stockInQuantity.FillColor = Color.FromArgb(52, 73, 85);
             stockInQuantity.FocusedState.BorderColor = Color.IndianRed;
             stockInQuantity.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             stockInQuantity.ForeColor = Color.White;
             stockInQuantity.HoverState.BorderColor = Color.FromArgb(193, 200, 207);
-            stockInQuantity.Location = new Point(293, 159);
+            stockInQuantity.Location = new Point(267, 159);
             stockInQuantity.Name = "stockInQuantity";
             stockInQuantity.PasswordChar = '\0';
             stockInQuantity.PlaceholderText = "";
+            stockInQuantity.ReadOnly = true;
             stockInQuantity.SelectedText = "";
             stockInQuantity.ShadowDecoration.CustomizableEdges = customizableEdges60;
-            stockInQuantity.Size = new Size(178, 38);
+            stockInQuantity.Size = new Size(204, 38);
             stockInQuantity.TabIndex = 3;
             // 
             // stockInCareOf
@@ -1406,6 +1495,7 @@
             panel1.Controls.Add(productCode);
             panel1.Controls.Add(date);
             panel1.Controls.Add(label3);
+            panel1.Controls.Add(guna2Panel5);
             panel1.ForeColor = Color.White;
             panel1.Location = new Point(0, 40);
             panel1.Name = "panel1";
@@ -1529,39 +1619,39 @@
             // 
             // table
             // 
-            dataGridViewCellStyle4.BackColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle4.ForeColor = Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(125, 137, 149);
-            dataGridViewCellStyle4.SelectionForeColor = Color.White;
-            table.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle8.ForeColor = Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle8.SelectionForeColor = Color.White;
+            table.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle8;
             table.BackgroundColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle5.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle5.ForeColor = Color.White;
-            dataGridViewCellStyle5.Padding = new Padding(5);
-            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle5.SelectionForeColor = Color.White;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle9.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle9.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle9.ForeColor = Color.White;
+            dataGridViewCellStyle9.Padding = new Padding(5);
+            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle9.SelectionForeColor = Color.White;
+            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
+            table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             table.ColumnHeadersHeight = 40;
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = Color.FromArgb(52, 73, 85);
-            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle6.ForeColor = Color.White;
-            dataGridViewCellStyle6.Padding = new Padding(5);
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(125, 137, 149);
-            dataGridViewCellStyle6.SelectionForeColor = Color.White;
-            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-            table.DefaultCellStyle = dataGridViewCellStyle6;
-            table.GridColor = Color.FromArgb(125, 137, 149);
-            table.Location = new Point(510, 76);
+            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = Color.FromArgb(52, 73, 85);
+            dataGridViewCellStyle10.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle10.ForeColor = Color.White;
+            dataGridViewCellStyle10.Padding = new Padding(5);
+            dataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle10.SelectionForeColor = Color.White;
+            dataGridViewCellStyle10.WrapMode = DataGridViewTriState.False;
+            table.DefaultCellStyle = dataGridViewCellStyle10;
+            table.GridColor = Color.FromArgb(66, 90, 105);
+            table.Location = new Point(482, 84);
             table.Name = "table";
             table.ReadOnly = true;
             table.RowHeadersVisible = false;
             table.RowTemplate.Height = 30;
             table.RowTemplate.ReadOnly = true;
-            table.Size = new Size(616, 475);
+            table.Size = new Size(633, 458);
             table.TabIndex = 30;
             table.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             table.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1569,7 +1659,7 @@
             table.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
             table.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
             table.ThemeStyle.BackColor = Color.FromArgb(52, 73, 85);
-            table.ThemeStyle.GridColor = Color.FromArgb(125, 137, 149);
+            table.ThemeStyle.GridColor = Color.FromArgb(66, 90, 105);
             table.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
             table.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
             table.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
@@ -2059,6 +2149,20 @@
             label3.TabIndex = 0;
             label3.Text = "INVENTORY";
             // 
+            // guna2Panel5
+            // 
+            guna2Panel5.BackColor = Color.FromArgb(66, 90, 105);
+            guna2Panel5.BorderColor = Color.FromArgb(52, 73, 85);
+            guna2Panel5.BorderRadius = 6;
+            guna2Panel5.BorderThickness = 2;
+            guna2Panel5.CustomizableEdges = customizableEdges105;
+            guna2Panel5.FillColor = Color.FromArgb(52, 73, 85);
+            guna2Panel5.Location = new Point(471, 75);
+            guna2Panel5.Name = "guna2Panel5";
+            guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges106;
+            guna2Panel5.Size = new Size(653, 476);
+            guna2Panel5.TabIndex = 33;
+            // 
             // userName
             // 
             userName.AutoSize = true;
@@ -2114,8 +2218,7 @@
             guna2Panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            guna2Panel5.ResumeLayout(false);
-            guna2Panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)stockout_table).EndInit();
             stockIn_panel.ResumeLayout(false);
             stockIn_panel.PerformLayout();
             guna2Panel3.ResumeLayout(false);
@@ -2198,7 +2301,22 @@
         private Guna.UI2.WinForms.Guna2Button stockOutClear;
         private Guna.UI2.WinForms.Guna2Button stockOutUpdate;
         private Guna.UI2.WinForms.Guna2Button stockOutSave;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
+        private Guna.UI2.WinForms.Guna2Button clearTextfields;
+        private Guna.UI2.WinForms.Guna2DataGridView stockIn_table;
+        private Guna.UI2.WinForms.Guna2TextBox stockOutTime;
+        private Label label37;
+        private Guna.UI2.WinForms.Guna2TextBox stockOutRecievedBy;
+        private Label label36;
+        private Guna.UI2.WinForms.Guna2TextBox stockOutPlateNumber;
+        private Label label35;
+        private Label label34;
+        private Guna.UI2.WinForms.Guna2TextBox stockOutTotal;
+        private Label label33;
+        private Guna.UI2.WinForms.Guna2TextBox stockOutOutQuantity;
+        private Label label32;
+        private Guna.UI2.WinForms.Guna2TextBox stockOutQuantity;
+        private Label label31;
+        private Guna.UI2.WinForms.Guna2TextBox stockOutFrom;
         private Guna.UI2.WinForms.Guna2DateTimePicker stockOutDate;
         private Guna.UI2.WinForms.Guna2TextBox stockOutTo;
         private Label label25;
@@ -2211,21 +2329,8 @@
         private Label label30;
         private Guna.UI2.WinForms.Guna2TextBox stockOutItem;
         private Guna.UI2.WinForms.Guna2TextBox stockOutRequestBy;
-        private Label label34;
-        private Guna.UI2.WinForms.Guna2TextBox stockOutTotal;
-        private Label label33;
-        private Guna.UI2.WinForms.Guna2TextBox stockOutOutQuantity;
-        private Label label32;
-        private Guna.UI2.WinForms.Guna2TextBox stockOutQuantity;
-        private Label label31;
-        private Guna.UI2.WinForms.Guna2TextBox stockOutFrom;
-        private Guna.UI2.WinForms.Guna2TextBox stockOutTime;
-        private Label label37;
-        private Guna.UI2.WinForms.Guna2TextBox stockOutRecievedBy;
-        private Label label36;
-        private Guna.UI2.WinForms.Guna2TextBox stockOutPlateNumber;
-        private Label label35;
-        private Guna.UI2.WinForms.Guna2Button clearTextfields;
-        private Guna.UI2.WinForms.Guna2DataGridView stockIn_table;
+        private Guna.UI2.WinForms.Guna2DataGridView stockout_table;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

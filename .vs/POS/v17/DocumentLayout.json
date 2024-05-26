@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\pos\\pos\\stockout_print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\stockout_print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\pos\\pos\\stockout_print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\stockout_print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\pos\\pos\\to_print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\to_print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\pos\\pos\\to_print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\to_print.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\pos\\pos\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +27,32 @@
       "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\pos\\pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\pos\\pos\\mainpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\mainpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\pos\\pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\pos\\registrationwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\registrationwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\pos\\registrationwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\registrationwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\pos\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\pos\\errorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\errorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\pos\\errorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\errorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1000026-C0A2-4E6E-8EE3-BB75987E0D55}|POS\\POS.csproj|solutionrelative:pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,32 +66,70 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\Form1.cs",
-              "RelativeDocumentMoniker": "POS\\Form1.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\Form1.cs [Design]",
-              "RelativeToolTip": "POS\\Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "stockout_print.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\stockout_print.cs",
+              "RelativeDocumentMoniker": "POS\\stockout_print.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\stockout_print.cs",
+              "RelativeToolTip": "POS\\stockout_print.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAcwI4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T09:28:18.408Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-26T15:38:55.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "stockout_print.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\stockout_print.cs",
+              "RelativeDocumentMoniker": "POS\\stockout_print.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\stockout_print.cs [Design]",
+              "RelativeToolTip": "POS\\stockout_print.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:37:28.473Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "mainPage.cs",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\mainPage.cs",
               "RelativeDocumentMoniker": "POS\\mainPage.cs",
               "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\mainPage.cs",
               "RelativeToolTip": "POS\\mainPage.cs",
-              "ViewState": "AQIAADYCAAAAAAAAAAAlwEUCAAANAAAA",
+              "ViewState": "AQIAAJwDAAAAAAAAAAAgwKYDAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T02:59:32.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "to_print.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\to_print.cs",
+              "RelativeDocumentMoniker": "POS\\to_print.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\to_print.cs",
+              "RelativeToolTip": "POS\\to_print.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T13:12:27.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "to_print.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\to_print.cs",
+              "RelativeDocumentMoniker": "POS\\to_print.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\to_print.cs [Design]",
+              "RelativeToolTip": "POS\\to_print.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:19:26.002Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "mainPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\mainPage.cs",
               "RelativeDocumentMoniker": "POS\\mainPage.cs",
@@ -75,38 +141,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "errorWindow.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\errorWindow.cs",
-              "RelativeDocumentMoniker": "POS\\errorWindow.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\errorWindow.cs",
-              "RelativeToolTip": "POS\\errorWindow.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAwCUAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "mainPage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\mainPage.Designer.cs",
+              "RelativeDocumentMoniker": "POS\\mainPage.Designer.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\mainPage.Designer.cs",
+              "RelativeToolTip": "POS\\mainPage.Designer.cs",
+              "ViewState": "AQIAAOIIAAAAAAAAAAAiwPwIAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T02:58:16.837Z"
+              "WhenOpened": "2024-05-26T15:08:45.964Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "errorWindow.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\errorWindow.cs",
-              "RelativeDocumentMoniker": "POS\\errorWindow.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\errorWindow.cs [Design]",
-              "RelativeToolTip": "POS\\errorWindow.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\Form1.cs",
+              "RelativeDocumentMoniker": "POS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\Form1.cs [Design]",
+              "RelativeToolTip": "POS\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T02:57:23.247Z"
+              "WhenOpened": "2024-04-25T09:28:18.408Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\Program.cs",
+              "RelativeDocumentMoniker": "POS\\Program.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\Program.cs",
+              "RelativeToolTip": "POS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T14:29:50.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "registrationWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\registrationWindow.cs",
+              "RelativeDocumentMoniker": "POS\\registrationWindow.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\registrationWindow.cs [Design]",
+              "RelativeToolTip": "POS\\registrationWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T10:04:24.431Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "registrationWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\registrationWindow.cs",
+              "RelativeDocumentMoniker": "POS\\registrationWindow.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\registrationWindow.cs",
+              "RelativeToolTip": "POS\\registrationWindow.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAgwLcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T10:09:12.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "loadingScreen.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\loadingScreen.cs",
               "RelativeDocumentMoniker": "POS\\loadingScreen.cs",
               "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\loadingScreen.cs [Design]",
               "RelativeToolTip": "POS\\loadingScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T02:49:01.604Z",
+              "WhenOpened": "2024-05-25T10:03:32.097Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\Form1.cs",
+              "RelativeDocumentMoniker": "POS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\POS\\POS\\Form1.cs",
+              "RelativeToolTip": "POS\\Form1.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAowFEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T07:34:46.566Z",
+              "EditorCaption": ""
             }
           ]
         }

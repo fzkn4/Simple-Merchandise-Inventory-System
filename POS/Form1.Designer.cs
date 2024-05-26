@@ -53,6 +53,7 @@
             // 
             // close
             // 
+            close.Animated = true;
             close.BackColor = Color.FromArgb(52, 73, 85);
             close.BorderRadius = 10;
             close.CheckedState.FillColor = Color.IndianRed;
@@ -80,6 +81,8 @@
             // 
             // password
             // 
+            password.AccessibleRole = AccessibleRole.None;
+            password.Animated = true;
             password.BorderColor = Color.FromArgb(66, 90, 105);
             password.BorderRadius = 6;
             password.BorderThickness = 2;
@@ -109,6 +112,8 @@
             // 
             // username
             // 
+            username.AccessibleRole = AccessibleRole.None;
+            username.Animated = true;
             username.BorderColor = Color.FromArgb(66, 90, 105);
             username.BorderRadius = 6;
             username.BorderThickness = 2;
@@ -147,6 +152,7 @@
             // 
             // guna2Button1
             // 
+            guna2Button1.Animated = true;
             guna2Button1.BackColor = Color.FromArgb(52, 73, 85);
             guna2Button1.BorderRadius = 6;
             guna2Button1.CustomizableEdges = customizableEdges5;
@@ -179,6 +185,7 @@
             // 
             // guna2Button2
             // 
+            guna2Button2.Animated = true;
             guna2Button2.BackColor = Color.FromArgb(52, 73, 85);
             guna2Button2.CustomizableEdges = customizableEdges3;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;

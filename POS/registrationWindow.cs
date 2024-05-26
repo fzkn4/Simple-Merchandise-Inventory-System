@@ -88,7 +88,7 @@ namespace POS
                 try
                 {
                     cmd = conn1.CreateCommand();
-                    cmd.CommandText = "Insert INTO users(user_id, name,username,password, position)VALUES("+ setUID() + ",'" + name.Text + "','" + username.Text + "','" + password.Text + "', '" + positionOption.Text + "')";
+                    cmd.CommandText = "Insert INTO users(user_id, name,username,password, position)VALUES(" + setUID() + ",'" + name.Text + "','" + username.Text + "','" + password.Text + "', '" + positionOption.Text + "')";
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Registered Successfully!");
                     passwordConfirm.Visible = false;
@@ -126,11 +126,6 @@ namespace POS
             confirmPassword.Clear();
         }
 
-        private void checkTextfields()
-        {
-
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             RegisterAccount();
@@ -157,7 +152,7 @@ namespace POS
                 {
 
                     id = dr.GetInt32("user_count");
-                    
+
                 }
                 con.Close();
             }
@@ -169,6 +164,25 @@ namespace POS
                 failed.ShowDialog();
             }
             return id;
+        }
+
+        private void confirmPassword_TextChanged(object sender, EventArgs e)
+        {
+            if (confirmPassword.Text.Length > 0)
+            {
+                if (confirmPassword.Text != password.Text)
+                {
+                    passwordConfirm.Visible = true;
+                }
+                else
+                {
+                    passwordConfirm.Visible = false;
+                }
+            }
+            else
+            {
+                passwordConfirm.Visible = false;
+            }
         }
     }
 }
