@@ -387,7 +387,7 @@
             panel3.Controls.Add(stockOutUpdate);
             panel3.Controls.Add(stockOutSave);
             panel3.Controls.Add(label22);
-            panel3.Location = new Point(0, 40);
+            panel3.Location = new Point(3, 3);
             panel3.Name = "panel3";
             panel3.Size = new Size(1167, 572);
             panel3.TabIndex = 11;
@@ -656,6 +656,7 @@
             stockOutOutQuantity.Size = new Size(178, 39);
             stockOutOutQuantity.TabIndex = 43;
             stockOutOutQuantity.TextChanged += stockOutOutQuantity_TextChanged;
+            stockOutOutQuantity.KeyPress += stockOutOutQuantity_KeyPress;
             // 
             // label32
             // 
@@ -693,6 +694,7 @@
             stockOutQuantity.ShadowDecoration.CustomizableEdges = customizableEdges24;
             stockOutQuantity.Size = new Size(178, 39);
             stockOutQuantity.TabIndex = 41;
+            stockOutQuantity.KeyPress += stockOutQuantity_KeyPress;
             // 
             // label31
             // 
@@ -1027,6 +1029,7 @@
             // stockIn_panel
             // 
             stockIn_panel.BackColor = Color.FromArgb(66, 90, 105);
+            stockIn_panel.Controls.Add(panel3);
             stockIn_panel.Controls.Add(stockInReport);
             stockIn_panel.Controls.Add(stockInClear);
             stockIn_panel.Controls.Add(stockInUpdate);
@@ -1035,7 +1038,7 @@
             stockIn_panel.Controls.Add(guna2Panel2);
             stockIn_panel.Controls.Add(label17);
             stockIn_panel.ForeColor = SystemColors.ControlText;
-            stockIn_panel.Location = new Point(0, 41);
+            stockIn_panel.Location = new Point(0, 40);
             stockIn_panel.Name = "stockIn_panel";
             stockIn_panel.Size = new Size(1167, 572);
             stockIn_panel.TabIndex = 10;
@@ -1318,6 +1321,7 @@
             stockInQuantity.ShadowDecoration.CustomizableEdges = customizableEdges60;
             stockInQuantity.Size = new Size(204, 38);
             stockInQuantity.TabIndex = 3;
+            stockInQuantity.KeyPress += stockInQuantity_KeyPress;
             // 
             // stockInCareOf
             // 
@@ -1447,6 +1451,7 @@
             stockInAddedQuantity.ShadowDecoration.CustomizableEdges = customizableEdges66;
             stockInAddedQuantity.Size = new Size(178, 38);
             stockInAddedQuantity.TabIndex = 4;
+            stockInAddedQuantity.KeyPress += stockInAddedQuantity_KeyPress;
             // 
             // label17
             // 
@@ -1750,6 +1755,7 @@
             guna2TextBox10.ShadowDecoration.CustomizableEdges = customizableEdges82;
             guna2TextBox10.Size = new Size(178, 48);
             guna2TextBox10.TabIndex = 26;
+            guna2TextBox10.KeyPress += guna2TextBox10_KeyPress;
             // 
             // label14
             // 
@@ -1786,6 +1792,7 @@
             itemPrice.ShadowDecoration.CustomizableEdges = customizableEdges84;
             itemPrice.Size = new Size(178, 38);
             itemPrice.TabIndex = 10;
+            itemPrice.KeyPress += itemPrice_KeyPress;
             // 
             // label13
             // 
@@ -2202,7 +2209,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(52, 73, 85);
             ClientSize = new Size(1168, 653);
-            Controls.Add(panel3);
             Controls.Add(stockIn_panel);
             Controls.Add(userPosition);
             Controls.Add(userName);

@@ -364,6 +364,7 @@ namespace POS
             stockOut_Save();
             insert_stockout();
             stockOut_clear();
+            update_stockout_table();
         }
 
         private void insert_stockout()
@@ -483,7 +484,9 @@ namespace POS
 
         private void stockOutUpdate_Click(object sender, EventArgs e)
         {
-            update_stockout_data();
+            edit_stockout();
+            updateTable();
+            update_stockout_table();
             stockOut_clear();
         }
 
@@ -685,7 +688,6 @@ namespace POS
                 cmd.Parameters.Add("@addedQuantity", MySqlDbType.Int32).Value = Convert.ToInt32(stockInAddedQuantity.Text);
                 cmd.Parameters.Add("@careOf", MySqlDbType.String).Value = stockInCareOf.Text;
                 cmd.ExecuteNonQuery();
-                updateItemQuantity(stockInItem.Text);
                 MessageBox.Show("update successfully.");
             }
 
@@ -702,10 +704,9 @@ namespace POS
             try
             {
                 MySqlConnection conzx = new MySqlConnection(connection);
-                MySqlCommand cmd = new MySqlCommand("update items set itemQuantity=itemQuantity-@itemQuantity where itemID=@itemID", conzx);
+                MySqlCommand cmd = new MySqlCommand("update items set itemQuantity=itemQuantity-@itemQuantity where itemName='" + stockInItem.Text + "'", conzx);
                 conzx.Open();
                 cmd.Parameters.Add("@itemQuantity", MySqlDbType.Int32).Value = (prev - current);
-                cmd.Parameters.Add("@itemID", MySqlDbType.Int32).Value = stockItemID_searched;
                 clearStockinfields();
 
                 cmd.ExecuteNonQuery();
@@ -904,9 +905,10 @@ namespace POS
                     try
                     {
 
-                        out_transactionID = Convert.ToInt32(stockIn_table.Rows[e.RowIndex].Cells[0].Value.ToString());
-                        stockOutItem.Text = (stockIn_table.Rows[e.RowIndex].Cells[1].Value.ToString());
-                        stockOutOutQuantity.Text = (stockIn_table.Rows[e.RowIndex].Cells[2].Value.ToString());
+                        out_transactionID = Convert.ToInt32(stockout_table.Rows[e.RowIndex].Cells[0].Value.ToString());
+                        stockOutItem.Text = (stockout_table.Rows[e.RowIndex].Cells[1].Value.ToString());
+                        stockOutOutQuantity.Text = (stockout_table.Rows[e.RowIndex].Cells[2].Value.ToString());
+                        prev_out_quantity = Convert.ToInt32(stockout_table.Rows[e.RowIndex].Cells[2].Value.ToString());
                     }
                     catch (Exception ex)
                     {
@@ -925,7 +927,7 @@ namespace POS
             try
             {
                 MySqlConnection conzx = new MySqlConnection(connection);
-                MySqlCommand cmd = new MySqlCommand("update stockout set item_name=@item_name, out_quantity=@out where itemID=" + out_transactionID + "", conzx);
+                MySqlCommand cmd = new MySqlCommand("update stockout set item_name=@item_name, out_quantity=@out where item_name='" + stockOutItem.Text + "'", conzx);
                 conzx.Open();
                 cmd.Parameters.Add("@item_name", MySqlDbType.String).Value = stockOutItem.Text;
                 cmd.Parameters.Add("@out", MySqlDbType.Int32).Value = Convert.ToInt32(stockOutOutQuantity.Text);
@@ -945,10 +947,175 @@ namespace POS
             updateStockInTable();
         }
 
+        int prev_out_quantity = 0;
+        private void edit_stockout()
+        {
+            int current = Convert.ToInt32(stockOutOutQuantity.Text);
+            int prev = prev_out_quantity;
+            if (current > prev)
+            {
+                update_stockout_data();
+                update_stockout_greaterCurrent(prev, current);
+                update_stockout_table();
+            }
+            else if (current < prev)
+            {
+                update_stockout_data();
+                update_stockout_lesserCurrent(prev, current);
+                update_stockout_table();
+
+            }
+            else
+            {
+                update_stockout_data();
+            }
+
+            update_stockout_table();
+
+        }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             stockout_print window = new stockout_print();
             window.ShowDialog();
+        }
+
+        private void update_stockout_lesserCurrent(int prev, int current)
+        {
+            try
+            {
+                MySqlConnection conzx = new MySqlConnection(connection);
+                MySqlCommand cmd = new MySqlCommand("update items set itemQuantity=itemQuantity+@itemQuantity where itemName='" + stockOutItem.Text + "'", conzx);
+                conzx.Open();
+                cmd.Parameters.Add("@itemQuantity", MySqlDbType.Int32).Value = (prev - current);
+                clearStockinfields();
+
+                cmd.ExecuteNonQuery();
+
+                loginFailed failed = new loginFailed();
+                failed.message = "Updated successfully!";
+                failed.ShowDialog();
+
+                conzx.Close();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            updateStockInTable();
+        }
+
+        private void update_stockout_greaterCurrent(int prev, int current)
+        {
+            try
+            {
+                MySqlConnection conzx = new MySqlConnection(connection);
+                MySqlCommand cmd = new MySqlCommand("update items set itemQuantity=itemQuantity-@itemQuantity where itemName='" + stockOutItem.Text + "'", conzx);
+                conzx.Open();
+                cmd.Parameters.Add("@itemQuantity", MySqlDbType.Int32).Value = (current - prev);
+
+                cmd.ExecuteNonQuery();
+
+                loginFailed failed = new loginFailed();
+                failed.message = "Updated successfully!";
+                failed.ShowDialog();
+
+                conzx.Close();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            updateStockInTable();
+        }
+
+        private void stockOutQuantity_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as Guna2TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void stockOutOutQuantity_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as Guna2TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void stockInQuantity_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as Guna2TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void stockInAddedQuantity_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as Guna2TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void guna2TextBox10_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as Guna2TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void itemPrice_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+        (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as Guna2TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
